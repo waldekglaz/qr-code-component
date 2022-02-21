@@ -5,10 +5,10 @@ import TextContent from './TextContent';
 
 function App() {
   return (
-    <div className="card">
+    <main className="card">
       <Image/>
       <TextContent/>
-    </div>
+    </main>
   );
 }
 
