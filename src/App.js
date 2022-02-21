@@ -1,9 +1,13 @@
 import './App.css';
+import Image from './Image';
+import TextContent from './TextContent';
+
 
 function App() {
   return (
     <div className="card">
-      <h1>hello</h1>
+      <Image/>
+      <TextContent/>
     </div>
   );
 }

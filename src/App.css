@@ -3,3 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+.body {
+  background-color: #d5e1ef;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+.card {
+  width: 320px;
+  background-color: #fff;
+  padding: 1rem 1rem 2.5rem;
+  border-radius: 20px;
+}
+.card__img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+.card__title {
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 27.72px;
+  color: #1f314f;
+  margin-bottom: 1rem;
+}
+.card__paragraph {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 18.9px;
+  letter-spacing: 0.19px;
+  color: #7d889e;
+  padding: 0 1rem;
+}
